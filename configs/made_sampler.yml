@@ -1,0 +1,15 @@
+#### load checkpoint
+#ckpt_path: runs/pretrained/mnist_made.pth
+ckpt_path: runs/pretrained/cifar10_made.pth
+
+#### sampling:
+algo: sequential
+#algo: jacobi
+#dataset: MNIST
+dataset: CIFAR10
+
+#### made specs
+hidden_size: 512
+hidden_layers: 2
+
+save_folder: plot_data

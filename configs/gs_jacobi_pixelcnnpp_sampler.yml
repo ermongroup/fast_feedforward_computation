@@ -1,0 +1,24 @@
+ckpt_path: runs/pretrained/cifar10.flax
+#ckpt_path: runs/pretrained/mnist.flax
+save_folder: plot_data
+
+#### training:
+algo: gs_jacobi
+
+#### CIFAR10 specs
+data_dir: runs/cifar10
+dataset: CIFAR10
+nr_resnet: 5
+nr_filters: 160
+nr_logistic_mix: 10
+sample_batch_size: 4
+max_rows: 2
+
+#### MNIST specs
+#data_dir: runs/mnist
+#dataset: MNIST
+#nr_resnet: 5
+#nr_filters: 40
+#nr_logistic_mix: 10
+#sample_batch_size: 16
+#max_rows: 15
